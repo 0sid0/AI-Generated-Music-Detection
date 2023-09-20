@@ -1,3 +1,4 @@
+pip install soundcloud-lib 
 from sclib.asyncio import SoundcloudAPI, Track, Playlist
 
 
