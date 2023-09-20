@@ -1,3 +1,16 @@
+from sklearn.model_selection import train_test_split
+import numpy as np
+import os
+from numpy import loadtxt
+from tensorflow.keras.models import Sequential
+from tensorflow.keras.layers import Dense
+from tensorflow.keras.layers import Dropout
+from tensorflow.keras.layers import LSTM
+import tensorflow as tf
+from tensorflow import keras
+from tensorflow.keras import layers
+
+
 X_list, y_list = mlp_data_preprocess("/content/drive/MyDrive/AI_music/AI Music Data/", "/content/drive/MyDrive/AI_music/Real Music Data/")
 
 X = np.array(X_list)
